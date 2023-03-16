@@ -1,18 +1,24 @@
 h1 {
     font-style: italic;
-    align-items: center;
+    text-align: center;
     color: blueviolet;
+    margin: auto;
     
 }
 
 p {color: blue;
     font-style: normal;
-    align-items: center;
+    text-align: center;
 }
 
-img {align-items: center;
+img {
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+      }
 
-}
+
 
 .class {
     display:flex
@@ -22,10 +28,10 @@ img {align-items: center;
 
 .class > div {
     background-color: red;
-    width: 100px;
+    width: 50px;
     font-size: 20px;
     align-content: center;
-    margin: 40px;
-    padding: 40px;
-    flex-wrap: width 150px, height 200px;
+    margin: 50px;
+    padding: 50px;
+    flex-wrap: width 60px, height 60px;
 }
